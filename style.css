@@ -1,0 +1,42 @@
+.big_container {
+  background-color: lightblue;
+  height: 850px;
+  width: 100%;
+}
+.header {
+  background-color: whitesmoke;
+  height: 50px;
+  width: 100%;
+}
+
+.empty {
+  color: red;
+  font-size: 20px;
+}
+
+.filled {
+  color: lightgrey;
+  font-size: 20px;
+}
+
+.square {
+  background-color: lightgrey;
+  height: 150px;
+  width: 180px;
+  border: 2px solid black;
+  font-size: 25px;
+}
+
+.btn {
+  background-color: lightgrey;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  height: 80px;
+  width: 180px;
+  margin: 30px;
+}
+
+.btn:hover {
+  background-color: whitesmoke;
+}
