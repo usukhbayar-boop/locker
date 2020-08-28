@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+      <div id="main">
       <div class="header">
           <p><div class="empty">Бараатай</div><div class="filled">Хоосон</div></p> 
       </div>
     <div class="big_container">
-        <table>
+        <table class="main_container">
             <tr>
                 <td class="square" id="one">1</td>
                 <td class="square" id="two">2</td>
@@ -64,6 +65,29 @@
         <button class="btn" id="avah">ТЭЭШ АВАХ</button>
         <button class="btn" id="hiih">ТЭЭШ ХИЙХ</button>
     </div>
-    <script src="app.js"></script>
+    </div>
+
+    <div id="form_container">
+        <div class="container">
+            <h1>Нууц үгээ оруулна уу!</h1>
+              <p>Нууц үг: </p>
+              <input type="password" id="psw" name="psw" />
+      
+              <p>Нууц үгээ дахин оруул</p>
+              <input type="password" id="re-psw" name="psw" />
+      
+              <button class="submit">Submit</button>
+            <div class="message"><h2>Нууц үг буруу байна! Ахин хийнэ үү!</h2></div>
+          </div>
+    </div>
+
+    <div id="message_container">
+<div id="alert_message">
+</div>
+    </div>
+    
+    <script src="main.js">
+        
+    </script>
   </body>
 </html>
